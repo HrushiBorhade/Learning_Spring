@@ -1,4 +1,4 @@
-package com.hrushi.learningspring;
+package com.hrushi.learningspring.helloworld;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
