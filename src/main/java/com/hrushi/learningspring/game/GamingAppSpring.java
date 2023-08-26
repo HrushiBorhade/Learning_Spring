@@ -1,11 +1,9 @@
-package com.hrushi.learningspring;
+package com.hrushi.learningspring.game;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
-import com.hrushi.learningspring.game.GameRunner;
 
 @Configuration
 @ComponentScan("com.hrushi.learningspring.game")
