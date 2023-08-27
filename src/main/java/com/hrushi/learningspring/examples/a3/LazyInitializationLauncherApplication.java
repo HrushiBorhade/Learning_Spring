@@ -11,7 +11,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 class ClassA{
-	
 }
 
 @Component
@@ -23,7 +22,7 @@ class ClassB{
 	ClassA classA;
 	public ClassB(ClassA classA) {
 		System.out.println("Some Initialization Logic");
-		
+
 		this.classA = classA;
 	}
 	public void doSomething() {
