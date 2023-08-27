@@ -40,7 +40,7 @@ public class LazyInitializationLauncherApplication {
 				new AnnotationConfigApplicationContext
 					(LazyInitializationLauncherApplication.class)) {
 			
-			System.out.println("Something before Spring Bean Initilization");
+			System.out.println("Something about Spring Bean Initilization");
 			context.getBean(ClassB.class).doSomething();
 		}
 	}
